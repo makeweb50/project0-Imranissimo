@@ -1,0 +1,68 @@
+body {
+  background-image: url(fon.jpg);
+}
+h1 {
+  color: #8a8a5c;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+@media (min-width: 750px) {
+  h1::before {
+    content: "БЕЦИЕВ ИМРАН (студент | тыжпрограммист)";
+  }
+}
+@media (max-width: 749px) {
+  h1::before {
+    content: "БЕЦИЕВ ИМРАН";
+  }
+}
+img {
+   width: 400px;
+  border-radius:200px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.td-1 {
+  width: 500px;
+}
+.td-2 {
+  width: 100px;
+}
+.td-3 {
+  width: 100px;
+}
+.td-4 {
+  width: 100px;
+}
+h2 {
+  text-align: center;
+}
+#text-1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 70%;
+  font-size: 22pt;
+}
+#text-2 {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 70%;
+  font-size: 22pt;
+}
+#text-3 {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 70%;
+  font-size: 22pt;
+}
+#text-4 {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 70%;
+  font-size: 22pt;
+}
+p {
+  font-weight:bold;
+  margin-left: 42%;
+  padding-top: 10%;
+}
